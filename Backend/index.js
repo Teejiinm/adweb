@@ -13,7 +13,7 @@ DbCon()
 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173'  
+    origin: 'https://frontend-c2qu.onrender.com'  
 }));
 app.use(cookieParser())
 app.use(express.json())
